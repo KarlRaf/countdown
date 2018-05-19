@@ -1,42 +1,68 @@
 /* Your board style here */
+@import '//fonts.googleapis.com/css?family=Bangers';
+
 body{
-    text-align: center;
-    background: #00ECB9;
-  font-family: sans-serif;
+  text-align: center;
+  background: #00ECB9;
+  font-family:Bangers;
   font-weight: 100;
 }
 
 h1{
-  color: #396;
+  color: black;
   font-weight: 100;
   font-size: 40px;
   margin: 40px 0px 20px;
 }
 
 #clockdiv{
-    font-family: sans-serif;
-    color: #fff;
+    font-family:Bangers;
+    color: #8A0707;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 30px;
+    font-size: 100px;
 }
 
 #clockdiv > div{
     padding: 10px;
     border-radius: 3px;
-    background: #00BF96;
+    /*background: #00BF96;*/
     display: inline-block;
 }
 
 #clockdiv div > span{
     padding: 15px;
     border-radius: 3px;
-    background: #00816A;
+    /*background: black;*/
     display: inline-block;
 }
 
 .smalltext{
     padding-top: 5px;
-    font-size: 16px;
+    font-size: 25px;
+}
+
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 0.6;
+  margin-bottom: 30px;
 }
