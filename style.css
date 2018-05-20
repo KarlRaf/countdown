@@ -1,9 +1,10 @@
 /* Your board style here */
 @import '//fonts.googleapis.com/css?family=Bangers';
 
+
 body{
   text-align: center;
-  background: #00ECB9;
+  background: black;
   font-family:Bangers;
   font-weight: 100;
 }
@@ -41,8 +42,12 @@ h1{
 .smalltext{
     padding-top: 5px;
     font-size: 25px;
+    color: black;
 }
 
+.foot h1 {
+  color: #8A0707;
+}
 
 .banner {
   color: white;
